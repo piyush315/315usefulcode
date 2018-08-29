@@ -1,0 +1,20 @@
+UPDATE wp_options SET option_value = REPLACE(option_value, 'http://test.rudrastyh.com', 'https://rudrastyh.com') WHERE option_name = 'home' OR option_name = 'siteurl';
+UPDATE wp_posts SET post_content = REPLACE (post_content, 'http://test.rudrastyh.com', 'https://rudrastyh.com');
+UPDATE wp_postmeta SET meta_value = REPLACE (meta_value, 'http://test.rudrastyh.com','https://rudrastyh.com');
+UPDATE wp_comments SET comment_content = REPLACE (comment_content, 'http://test.rudrastyh.com', 'https://rudrastyh.com');
+UPDATE wp_comments SET comment_author_url = REPLACE (comment_author_url, 'http://test.rudrastyh.com','https://rudrastyh.com');
+UPDATE wp_posts SET guid = REPLACE (guid, 'http://test.rudrastyh.com', 'https://rudrastyh.com') WHERE post_type = 'attachment';
+
+
+
+UPDATE wp_options SET option_value = REPLACE(option_value, 'http://ideclare.today', 'http://ideclare.today/staging') WHERE option_name = 'home' OR option_name = 'siteurl';
+UPDATE wp_posts SET post_content = REPLACE (post_content, 'http://ideclare.today', 'http://ideclare.today/staging');
+UPDATE wp_postmeta SET meta_value = REPLACE (meta_value, 'http://ideclare.today','http://ideclare.today/staging');
+UPDATE wp_comments SET comment_content = REPLACE (comment_content, 'http://ideclare.today', 'http://ideclare.today/staging');
+UPDATE wp_comments SET comment_author_url = REPLACE (comment_author_url, 'http://ideclare.today','https://ideclare.today/staging');
+UPDATE wp_posts SET guid = REPLACE (guid, 'http://ideclare.today', 'http://ideclare.today/staging') WHERE post_type = 'attachment';
+
+
+https://rudrastyh.com/tools/sql-queries-generator
+
+
