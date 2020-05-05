@@ -6,7 +6,7 @@ https://gist.github.com/jhaus/720866
 https://gist.github.com/bambattajb/1244a2d3ff849242c80d638bb07df517
 https://code.tutsplus.com/tutorials/object-oriented-programming-in-wordpress-building-the-plugin-ii--cms-21105
 https://github.com/tommcfarlin/single-post-meta-manager/blob/master/single-post-meta-manager.php
-https://codex.wordpress.org/Function_Reference/register_activation_hook
+
 
 ---------wordpress glossary link---------------
 https://www.wpbeginner.com/glossary
@@ -15,7 +15,7 @@ https://www.wpbeginner.com/glossary
 
 -------------custom post type event wordpress-------------------
 http://www.noeltock.com/web-design/wordpress/custom-post-types-events-pt1/
-https://www.noeltock.com/web-design/wordpress/how-to-custom-post-types-for-events-pt-2/
+https://www.noeltock.com/web-design/wordpress/how-to-custom-post-types-for-events-pt-2
 
 
 
